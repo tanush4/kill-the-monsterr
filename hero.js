@@ -27,7 +27,8 @@ class hero{
       imageMode(CENTER)
       strokeWeight(3);
       fill("blue");
-      scale (0.2);
+      scale=0.2
+  
       image (this.image,0,0,this.r,this.r);    
       pop();    
   
